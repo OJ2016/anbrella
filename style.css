@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+ 
+}
+
+.bgimg-1, .bgimg-2,.bgimg-3{
+  position: relative;
+  opacity: 0.85;
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("umbrellas.jpg");
+  min-height: 100px;
+ 
+}
+.bgimg-2 {
+  background-image: url("network.jpg");
+  
+}
+.bgimg-3 {
+  background-image: url("world.jpg");
+ 
+}
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.logo{
+	padding-top: 100px;
+}
+.navigator{
+	position: fixed;
+    top: 0;
+    z-index: 500;
+    
+  
+}
+span.border {
+  background-color:white;
+  color: darkred;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+img.center {
+	margin: auto;
+    display: block;
+}
+div.heading {
+	text-align: center;
+	padding-top: 20%;
+
+}
+div.part {
+	text-align: center;
+	background: white;
+	padding-bottom: 40px;
+}
+.centerTable{
+	display: inline-block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+}
+#contact{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+td {
+  padding: 5px;
+}
+
